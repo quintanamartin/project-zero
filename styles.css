@@ -4,7 +4,6 @@ GENERAL
 //////////////
 */
 
-
 * {
     margin: 0;
     padding: 0;
@@ -41,6 +40,11 @@ NAV
 
 .item-lista{
     padding:10px;
+    text-decoration: none;
+}
+
+.item-lista:hover{
+    color: #2c59a3;    
 }
 
 /*
@@ -75,6 +79,7 @@ MAIN
 .principal{
     float: left;
     width: 70%;
+    padding: 10px 10px;
 }
 
 .parrafos{
@@ -97,11 +102,16 @@ ASIDE
 }
 
 .publicidad-titular{
-    position: relative;
-    margin-top: -80px;
-    margin-left: 50px;
     padding: 10px;
-    font-size: 1.2em;
+    font-size: 1.5em;
+    float: right;
+    position: absolute;
+    margin-top: -180px;
+    opacity: 0;
+}
+
+.publicidad-titular:hover{
+    opacity: 1;
 }
 
 /*
