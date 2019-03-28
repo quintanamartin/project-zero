@@ -1,0 +1,126 @@
+/*
+///////////////
+GENERAL
+//////////////
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 18px;
+}
+
+h1,h2,h3,p{
+    color: #24292e;
+}
+
+.contenedor {
+    background-color: #fafafa;
+    width: 100%;
+}
+
+/*
+/////////////
+NAV
+////////////
+*/
+.diario{
+    font-size: 2em;
+    padding: 10px;
+}
+
+.lista{
+    list-style: none;
+    display: flex;
+}
+
+.item-lista{
+    padding:10px;
+}
+
+/*
+///////////////
+SECCIONES
+//////////////
+*/
+
+.titular{
+    font-size: 2.25em;
+}
+
+.segundo-titular{
+    font-size: 1.75em;
+    margin-top: 15px;
+}
+
+.tercer-titular{
+    font-size: 1.4em;
+    margin-top: 15px;
+}
+
+.redactores{
+    margin-top: 25px;
+}
+
+/*
+////////////
+MAIN
+///////////
+*/
+.principal{
+    float: left;
+    width: 70%;
+}
+
+.parrafos{
+    line-height: 40px;
+}
+
+/*
+////////////
+ASIDE
+///////////
+*/
+.recomendaciones, .publicidad{
+    float: right;
+    width: 30%;
+}
+
+.publicidad{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.publicidad-titular{
+    position: relative;
+    margin-top: -80px;
+    margin-left: 50px;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+/*
+///////////////
+ FOOTER 
+///////////////
+*/
+
+.divisor{
+    margin-top: 45px;
+    border: 0.5 solid #808080;
+    width: 80%;
+    opacity: 0.3;
+}
+
+.autores{
+    text-decoration: none;
+}
+
+.derechos{
+    text-align: center;
+}
