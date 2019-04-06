@@ -159,10 +159,12 @@ ASIDE
 */
 
 .divisor{
-    margin-top: 45px;
+    margin: auto;
+    margin-bottom: 10px;
     border: 0.5 solid #808080;
     width: 80%;
     opacity: 0.3;
+    
 }
 
 .autores{
