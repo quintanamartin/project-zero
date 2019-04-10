@@ -55,3 +55,95 @@ footer
 [7]: Texto de Copyright.  
 [8]: Link absoluto hacia algún sitio externo.  
 [9]: Link que nos lleve hacia el header del diario (usar `id=header` para identificarlo).  
+
+Parte 2
+Fecha de entrega (Parte 2)
+28/30 de Marzo, dependiendo en qué grupo estés.
+
+Consigna
+Para esta 2da parte, vamos a comenzar a aplicar estilos a nuestro sitio y hacer algunas modificaciones a nuestro documento. Al final se incluye una imagen de referencia para visualizar mejor las modificaciones.
+
+Importante
+Esta 2da parte NO incluye modificaciones del CSS correspondiente al layout del contenido (los elementos en bloque seguirán quedando uno debajo del otro), eso quedará para la 3ra. parte del proyecto.
+El proyecto debe resolverse con el mismo grupo con el que hiciste la 1er parte del mismo.
+Utilizar Git y GitHub para colaborar y trabajar en conjunto.
+Ambos miembros del equipo deben presentar el mismo proyecto, no 2 versiones individuales.
+Se va a evaluar la reutilización de estilos en CSS. También que, preferentemente se utilicen selectores de clase sobre cualquier otro.
+Estilos CSS
+Aplanar lista de temáticas/secciones, es decir, que la lista se vea horizontal, con los ítems uno al lado del otro.
+Sacarle los bullets/viñetas a la lista de temáticas/secciones.
+Definir un tamaño base para la fuente de nuestro documento en 18px.
+Definir un tamaño relativo para los h1 que sea 2.25 veces más grande que el tamaño base.
+Definir un tamaño relativo para los h2 que sea 1.75 veces más grande que el tamaño base.
+Definir un tamaño relativo para los h3 que sea 1.4 veces más grande que el tamaño base.
+Definir el color #fafafa como color de fondo de nuestro sitio.
+Definir el color #24292e como color para el texto de nuestro sitio (h1, h2, h3 y p).
+Cambios en el HTML
+La estructura de nuestro sitio va a modificarse ligeramente y quedar de esta forma
+
+header
+    p
+    nav
+        ul
+main               
+    article
+        section
+            h1
+        figure
+            img
+            figcaption
+        section
+            p [10]
+            p
+            p
+            figure
+                img
+                figcaption
+            p [16]
+    section [11]
+            h2
+        article
+            h3
+            figure
+                img
+                figcaption
+        article
+            h3
+            figure
+                img
+                figcaption
+    aside
+        h3 [12]
+        img
+
+hr [15]
+footer
+    a [13]
+    a [14]
+    p
+Agregar una nueva section [11] que contiene lo siguiente: 2 articles, correspondientes a 2 noticias recomendadas (no necesariamente relacionadas a la que estamos leyendo), con sus correspondientes títulos (h3) e imágenes descriptivas.
+Agregarle un h3 al aside que contiene la publicidad, con el texto PUBLICIDAD [12].
+La noticia debe contener al menos 3 párrafos [10].
+Agregar un p con un margen inferior de 30pxantes del primer párrafo de la noticia, en color #808080 y tamaño 0.75 (respecto del tamaño base), que contenga el texto <FECHA> - <HORA>, ejemplo 23 de Marzo de 2019 - 12:36.
+Agregar una 2da imagen (con su correspondiente caption) relacionada a la noticia.
+Agregar un p[16] al final del texto de la noticia, con un margen superior de 25px, que contenga el texto "Por:" seguido de links absolutos a los perfiles de GitHub de lxs autores del proyecto (Por: repo-user-1 - repo-user-2).
+Agregar un hr [15] antes del footer, con un margen superior de 45pxy los siguientes estilos: border: 0.5px solid #808080;, ancho del 80% y opacidad 0.3.
+Modificar el footer para que quede similar al de la imagen de referencia (ver abajo): un p con el texto Código fuente: repo-1 | repo-2, que linkee a los repositorios del sitio de cada autor del proyecto, el link de Volver al inicio debajo (ver siguiente ítem) y el texto de copyright centrado, entre ambos links.
+El link restante del footer [14] debe continuar siendo un link con el texto "Volver al inicio", que nos lleve hacia el headerdel sitio.
+Imagen de referencia
+
+
+Parte 3
+Fecha de entrega (Parte 3)
+11/13 de Abril, dependiendo en qué grupo estés.
+
+Estilos CSS
+Definir alguna tipografía distinta a la default para los p. Esta fuente debe ser safe web para asegurarnos compatibilidad independientemente del sistema operativo del usuario.
+Elegir alguna fuente de Google Fonts para los h1 y usarla con el font-weight correspondiente a bold.
+Elegir otra fuente de Google Fonts para los h2 y h3. Usarla con el font-weight correspondiente a bold (h1, h2/h3 y pdeben tener tipografías distintas).
+Transformar los h3 para que siempre se vean en mayúsculas.
+Agregarle los estilos correspondientes a todas las imágenes del sitio para que sean responsive. Pista: alcanza con modificar ancho y alto de las mismas.
+Modificar el estilo de los links (anchors) de nuestra página, para que no tengan subrayado y su color sea #0074c4.
+Modificar el estilo de los links (anchors) de nuestra página, para que tengan el color ##0098ffy subrayado al hacer hover sobre los mismos.
+Flotar las secciones de publicidad y noticias recomendadas a la derecha para que se vean como en la imagen de referencia.
+Dejar un margen de 24pxentre las secciones de publicidad y noticias recomendadas y el article correspondiente a la noticia.
