@@ -26,6 +26,7 @@ h1{
 
 h2, h3{
     font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
 }
 
 h3{
@@ -124,6 +125,11 @@ MAIN
 .foto-principal{
     margin-bottom: 15px;
 }
+
+.foto-ramo{
+    width: 45%;
+    height: 45%;
+}
 /*
 ////////////
 ASIDE
@@ -131,7 +137,8 @@ ASIDE
 */
 .recomendaciones, .publicidad{
     float: right;
-    width: 30%;
+    width: 25%;
+    margin-left: 24px;
 }
 
 .publicidad{
@@ -150,6 +157,16 @@ ASIDE
 
 .publicidad-titular:hover{
     opacity: 1;
+}
+
+.foto-recomendaciones{
+    width: 90%;
+    height: 90%;
+}
+
+.foto-publicidad{
+    width: 70%;
+    heigth: 70%;
 }
 
 /*
